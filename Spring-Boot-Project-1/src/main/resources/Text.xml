@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<Response>
+	<Say> MMmmm Nagarjuna</Say>
+	<Play>http://yourserver.com/your-audio-file.mp3</Play>
+</Response> -->
+<Response>
+    <Say>Hello! This is a test message from your Twilio application.</Say>
+    <Gather timeout="10" numDigits="1">
+        <Say>If you'd like to hear this message again, press 1.</Say>
+    </Gather>
+    <!-- Optionally, you can add more TwiML instructions here -->
+</Response>
